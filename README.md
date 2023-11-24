@@ -15,12 +15,10 @@ You are responsible for choosing the items you feel  are more relevant
 
 Your tasks are the following
 
-- Charger les données de séries au lancement de l’application
 - Load the TV series data into the database from the start of the application
 - Develop the controllers of the two entities "Movies" and "Tv series"
 - Implement the endpoint displaying only the 10 most recent movies
 - Implement the endpoint displaying the most recent movies sorted by popularity
 - Implement the pagination feature for the API
-- Implémenter la table “Genre” et la mettre à jour avec l’import initial
-- Implement the "Genre" entity et update the initial import with these new data
-- Implement a counter returned in every API call thats counts the number of times the API is called globally.
+- Implement the "Genre" entity and update the initial import with these new data
+- Implement a counter returned in every API call that counts the number of times the API is called globally.
