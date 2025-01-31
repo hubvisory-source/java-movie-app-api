@@ -6,7 +6,7 @@
 
 ## Context
 
-You are currently the new developper in the team. Your main task is to audit, upgrade and maintain an app coded in Java 17 used to promote new movies to a database of users.
+You are currently the new developper in the team. Your main task is to audit, upgrade and maintain an app coded in Spring Boot/Java 17 used to promote new movies to a database of users.
 The app was first created by the lead developper
 
 So as to help with your onboarding, the lead developper has decided to take the time to help you out with your first few tasks.
