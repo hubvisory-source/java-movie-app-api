@@ -1,5 +1,6 @@
 package com.movie.app.controller.impl;
 
+import com.movie.app.controller.MovieController;
 import com.movie.app.entity.Movie;
 import com.movie.app.service.MovieService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-public class MovieControllerImpl implements com.movie.app.controller.impl.MovieController {
+public class MovieControllerImpl implements MovieController {
     @Autowired
     private final MovieService service;
 
@@ -19,7 +20,8 @@ public class MovieControllerImpl implements com.movie.app.controller.impl.MovieC
     }
 
     @GetMapping("/movies")
-    List<Movie> all() {
+    @Override
+    public List<Movie> all() {
         return new ArrayList<Movie>();
     }
 }
